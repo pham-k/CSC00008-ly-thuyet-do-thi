@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/kyo/Documents/learning/cntt/ly-thuyet-do-thi/bai-tap/tuan00/20880040/SOURCE/SOURCE.csproj",
+      "projectUniqueName": "/home/kyo/Documents/learning/cntt/ly-thuyet-do-thi/bai-tap/tuan-00/20880040/SOURCE/SOURCE.csproj",
       "projectName": "SOURCE",
-      "projectPath": "/home/kyo/Documents/learning/cntt/ly-thuyet-do-thi/bai-tap/tuan00/20880040/SOURCE/SOURCE.csproj",
+      "projectPath": "/home/kyo/Documents/learning/cntt/ly-thuyet-do-thi/bai-tap/tuan-00/20880040/SOURCE/SOURCE.csproj",
       "packagesPath": "/home/kyo/.nuget/packages/",
-      "outputPath": "/home/kyo/Documents/learning/cntt/ly-thuyet-do-thi/bai-tap/tuan00/20880040/SOURCE/obj/",
+      "outputPath": "/home/kyo/Documents/learning/cntt/ly-thuyet-do-thi/bai-tap/tuan-00/20880040/SOURCE/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/kyo/.nuget/NuGet/NuGet.Config"
