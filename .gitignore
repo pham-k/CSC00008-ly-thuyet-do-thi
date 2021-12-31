@@ -1,0 +1,7 @@
+*.docx
+*.pdf
+*.odt
+*.exe
+
+**/bin/Debug
+**/obj/Debug
