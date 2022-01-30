@@ -2,6 +2,8 @@
 *.pdf
 *.odt
 *.exe
+*.zip
+*.rar
 
 **/bin/Debug
 **/obj/Debug
