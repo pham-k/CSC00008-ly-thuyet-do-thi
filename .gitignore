@@ -4,6 +4,6 @@
 *.exe
 *.zip
 *.rar
-
+*.xlsx
 **/bin/Debug
 **/obj/Debug
