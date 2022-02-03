@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/kyo/Documents/learning/cntt/ly-thuyet-do-thi/bai-tap/tuan-01/20880040/SOURCE/SOURCE.csproj": {}
+    "/home/kyo/Documents/learning/cntt/ly-thuyet-do-thi/bai-tap/tuan-01/20880040_1988280/SOURCE/cau-2/cau-2.csproj": {}
   },
   "projects": {
-    "/home/kyo/Documents/learning/cntt/ly-thuyet-do-thi/bai-tap/tuan-01/20880040/SOURCE/SOURCE.csproj": {
+    "/home/kyo/Documents/learning/cntt/ly-thuyet-do-thi/bai-tap/tuan-01/20880040_1988280/SOURCE/cau-2/cau-2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/kyo/Documents/learning/cntt/ly-thuyet-do-thi/bai-tap/tuan-01/20880040/SOURCE/SOURCE.csproj",
-        "projectName": "SOURCE",
-        "projectPath": "/home/kyo/Documents/learning/cntt/ly-thuyet-do-thi/bai-tap/tuan-01/20880040/SOURCE/SOURCE.csproj",
+        "projectUniqueName": "/home/kyo/Documents/learning/cntt/ly-thuyet-do-thi/bai-tap/tuan-01/20880040_1988280/SOURCE/cau-2/cau-2.csproj",
+        "projectName": "cau-2",
+        "projectPath": "/home/kyo/Documents/learning/cntt/ly-thuyet-do-thi/bai-tap/tuan-01/20880040_1988280/SOURCE/cau-2/cau-2.csproj",
         "packagesPath": "/home/kyo/.nuget/packages/",
-        "outputPath": "/home/kyo/Documents/learning/cntt/ly-thuyet-do-thi/bai-tap/tuan-01/20880040/SOURCE/obj/",
+        "outputPath": "/home/kyo/Documents/learning/cntt/ly-thuyet-do-thi/bai-tap/tuan-01/20880040_1988280/SOURCE/cau-2/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/kyo/.nuget/NuGet/NuGet.Config"
