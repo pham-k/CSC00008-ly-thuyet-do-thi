@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/phamk/Documents/project/CSC00008-ly-thuyet-do-thi/tuan-01/20880040_1988280/SOURCE/cau-1/cau-1.csproj",
-      "projectName": "cau-1",
-      "projectPath": "/home/phamk/Documents/project/CSC00008-ly-thuyet-do-thi/tuan-01/20880040_1988280/SOURCE/cau-1/cau-1.csproj",
+      "projectUniqueName": "/home/phamk/Documents/project/CSC00008-ly-thuyet-do-thi/tuan-02/20880040_1988280/SOURCE/SOURCE.csproj",
+      "projectName": "SOURCE",
+      "projectPath": "/home/phamk/Documents/project/CSC00008-ly-thuyet-do-thi/tuan-02/20880040_1988280/SOURCE/SOURCE.csproj",
       "packagesPath": "/home/phamk/.nuget/packages/",
-      "outputPath": "/home/phamk/Documents/project/CSC00008-ly-thuyet-do-thi/tuan-01/20880040_1988280/SOURCE/cau-1/obj/",
+      "outputPath": "/home/phamk/Documents/project/CSC00008-ly-thuyet-do-thi/tuan-02/20880040_1988280/SOURCE/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/phamk/.nuget/NuGet/NuGet.Config"
