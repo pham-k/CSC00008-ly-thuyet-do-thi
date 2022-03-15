@@ -12,11 +12,21 @@ namespace SOURCE
         public List<bool> Visited;
         public List<bool> Finished;
         public Dictionary<int, List<int>> Graph;
+        public int Id;
+        public int SCCCount;
+        public List<int> Ids;
+        public List<int> Low;
+        public List<bool> OnStack;
+        public Stack<int> Stack;
         public AdjacencyList() {
             this.Graph = new Dictionary<int, List<int>>();
             this.Vertices = new List<int>();
             this.Finished = new List<bool>();
             this.Visited = new List<bool>();
+            this.Ids = new List<int>();
+            this.Low = new List<int>();
+            this.OnStack = new List<bool>();
+            this.Stack = new Stack<int>();
         }
         public void ReadData(string src = "./adjacency-list-3.txt")
         {
@@ -27,7 +37,7 @@ namespace SOURCE
                 string line = file.ReadLine();
                 List<int> val = line.Split(" ").Select(s => int.Parse(s.Trim())).ToList();
                 this.Vertices.Add(key);
-                this.Graph.Add(key, val);
+                this.Graph.Add(key, val.GetRange(1, val.Count - 1));
             }
 
         }
@@ -79,6 +89,7 @@ namespace SOURCE
                 }
                 am.Graph.Add(item.Key, edgesAM);
             }
+            am.GetPathMatrix();
             return am;
         }
         public bool IsCycle() {
@@ -244,6 +255,53 @@ namespace SOURCE
                     }
                 }
                 Console.WriteLine();
+            }
+        }
+        public void Tarjan() {
+            int v = GetNumberOfVertices();
+            this.Id = 0;
+            this.SCCCount = 0;
+            this.Stack.Clear();
+            this.Ids.Clear();
+            this.Low.Clear();
+            this.OnStack.Clear();
+            // initialize
+            for (int i = 0; i < v; i++) {
+                this.Ids.Add(-1); // -1 is unvisited
+                this.Low.Add(-1);
+                this.OnStack.Add(false);
+            }
+            for (int i = 0; i < v; i++) {
+                if (this.Ids[i] == -1) {
+                    TarjanUtil(i);
+                }
+            }
+        }
+        public void TarjanUtil(int v) {
+            this.Ids[v] = this.Id;
+            this.Low[v] = this.Id;
+            this.Id = this.Id + 1;
+            this.OnStack[v] = true;
+            this.Stack.Push(v);
+            foreach (int w in this.Graph[v]) {
+                if (this.Ids[w] == -1) {
+                    TarjanUtil(w);
+                    this.Low[v] = Math.Min(this.Low[v], this.Low[w]);
+                }
+                else if (this.OnStack[w]) {
+                    this.Low[v] = Math.Min(this.Low[v], this.Low[w]);
+                }
+            }
+            int node = -1;
+            if (this.Ids[v] == this.Low[v]) {
+                Console.Write("Thanh phan lien thong manh ");
+                while (node != v) {
+                    node = this.Stack.Pop();
+                    Console.Write($"{node}, ");
+                    this.OnStack[node] = false;
+                }
+                Console.WriteLine();
+                this.SCCCount++;
             }
         }
     }

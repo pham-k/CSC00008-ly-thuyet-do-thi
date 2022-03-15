@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/kyo/Documents/learning/cntt/ly-thuyet-do-thi/bai-tap/tuan-02/20880040_1988280/SOURCE/SOURCE.csproj",
+      "projectUniqueName": "/home/kyo/Documents/learning/cntt/ly-thuyet-do-thi/bai-tap/do-an-01/SOURCE/SOURCE.csproj",
       "projectName": "SOURCE",
-      "projectPath": "/home/kyo/Documents/learning/cntt/ly-thuyet-do-thi/bai-tap/tuan-02/20880040_1988280/SOURCE/SOURCE.csproj",
+      "projectPath": "/home/kyo/Documents/learning/cntt/ly-thuyet-do-thi/bai-tap/do-an-01/SOURCE/SOURCE.csproj",
       "packagesPath": "/home/kyo/.nuget/packages/",
-      "outputPath": "/home/kyo/Documents/learning/cntt/ly-thuyet-do-thi/bai-tap/tuan-02/20880040_1988280/SOURCE/obj/",
+      "outputPath": "/home/kyo/Documents/learning/cntt/ly-thuyet-do-thi/bai-tap/do-an-01/SOURCE/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/kyo/.nuget/NuGet/NuGet.Config"
@@ -58,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/6.0.102/RuntimeIdentifierGraph.json"
       }
     }
   }
