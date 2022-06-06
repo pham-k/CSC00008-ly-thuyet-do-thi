@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/phamk/Documents/projects/CSC00008-ly-thuyet-do-thi/tuan-03/20880040_1988280/SOURCE/CauA/CauA.csproj": {}
+    "/home/phamk/Documents/projects/CSC00008-ly-thuyet-do-thi/do-an-02/SOURCE/SOURCE.csproj": {}
   },
   "projects": {
-    "/home/phamk/Documents/projects/CSC00008-ly-thuyet-do-thi/tuan-03/20880040_1988280/SOURCE/CauA/CauA.csproj": {
+    "/home/phamk/Documents/projects/CSC00008-ly-thuyet-do-thi/do-an-02/SOURCE/SOURCE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/phamk/Documents/projects/CSC00008-ly-thuyet-do-thi/tuan-03/20880040_1988280/SOURCE/CauA/CauA.csproj",
-        "projectName": "CauA",
-        "projectPath": "/home/phamk/Documents/projects/CSC00008-ly-thuyet-do-thi/tuan-03/20880040_1988280/SOURCE/CauA/CauA.csproj",
+        "projectUniqueName": "/home/phamk/Documents/projects/CSC00008-ly-thuyet-do-thi/do-an-02/SOURCE/SOURCE.csproj",
+        "projectName": "SOURCE",
+        "projectPath": "/home/phamk/Documents/projects/CSC00008-ly-thuyet-do-thi/do-an-02/SOURCE/SOURCE.csproj",
         "packagesPath": "/home/phamk/.nuget/packages/",
-        "outputPath": "/home/phamk/Documents/projects/CSC00008-ly-thuyet-do-thi/tuan-03/20880040_1988280/SOURCE/CauA/obj/",
+        "outputPath": "/home/phamk/Documents/projects/CSC00008-ly-thuyet-do-thi/do-an-02/SOURCE/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/phamk/.nuget/NuGet/NuGet.Config"
